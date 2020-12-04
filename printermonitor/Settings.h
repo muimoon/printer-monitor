@@ -60,9 +60,9 @@ SOFTWARE.
 
 // OctoPrint / Repetier Monitoring -- Monitor your 3D OctoPrint or Repetier Server
 //#define USE_REPETIER_CLIENT       // Uncomment this line to use the Repetier Printer Server -- OctoPrint is used by default and is most common
-String PrinterApiKey = "";   // ApiKey from your User Account on OctoPrint / Repetier
+String PrinterApiKey = "0924C155A77A4A8396A34CEF17513F2A";   // ApiKey from your User Account on OctoPrint / Repetier
 String PrinterHostName = "octopi";// Default 'octopi' -- or hostname if different (optional if your IP changes)
-String PrinterServer = "";   // IP or Address of your OctoPrint / Repetier Server (DO NOT include http://)
+String PrinterServer = "octopi.local";   // IP or Address of your OctoPrint / Repetier Server (DO NOT include http://)
 int PrinterPort = 80;        // the port you are running your OctoPrint / Repetier server on (usually 80);
 String PrinterAuthUser = "";      // only used if you have haproxy or basic athentintication turned on (not default)
 String PrinterAuthPass = "";      // only used with haproxy or basic auth (only needed if you must authenticate)
@@ -72,7 +72,7 @@ boolean DISPLAYWEATHER = true; // true = show weather when not printing / false 
 String WeatherApiKey = "cd4edfc959e361441857906466389703"; // Your API Key from http://openweathermap.org/
 // Default City Location (use http://openweathermap.org/find to find city ID)
 int CityIDs[] = { 1796231 }; //Only USE ONE for weather marquee
-boolean IS_METRIC = false; // false = Imperial and true = Metric
+boolean IS_METRIC = true; // false = Imperial and true = Metric
 // Languages: ar, bg, ca, cz, de, el, en, fa, fi, fr, gl, hr, hu, it, ja, kr, la, lt, mk, nl, pl, pt, ro, ru, se, sk, sl, es, tr, ua, vi, zh_cn, zh_tw
 String WeatherLanguage = "en";  //Default (en) English
 
